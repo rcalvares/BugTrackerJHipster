@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.projetofinal"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "bugTracker",
+    "packageName": "com.projetofinal",
+    "packageFolder": "com/projetofinal",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "caffeine",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzA4ZWY1OTFjNjVkMDRjMGU3YjIzMTdmMzc5MTdhNzg3YTZjYzdlOTM3ZGNlOGY1MDgyMmFiOTE3MGU0OGMxNTEyMDQ2YTY1M2QwNTZlYjI4MDhmYTI0OWNmMGM1YmYwMjI5YWIyMjFiMzczMDk1OTJiYmU0OWI2YWQ5YWE1YTc=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
