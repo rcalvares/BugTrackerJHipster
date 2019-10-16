@@ -1,0 +1,31 @@
+entity Usuario {
+	usuario String required
+    senha String required
+    token String
+}
+
+entity Log {
+	level Level
+    descricao String
+    origem String
+    dataLog Instant
+    numeroOcorrencias Integer
+}
+
+entity LogDetalhado{
+	titulo String
+    detalhes String
+}
+
+enum Level {
+    WARNING, TRACE, ERROR
+}
+
+/**
+ * Task entity.
+ * @author The JHipster team.
+ */
+
+relationship ManyToOne{
+	Log to LogDetalhado
+}
