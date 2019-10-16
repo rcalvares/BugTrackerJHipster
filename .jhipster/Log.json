@@ -1,0 +1,46 @@
+{
+    "name": "Log",
+    "fields": [
+        {
+            "fieldName": "level",
+            "fieldType": "Level",
+            "fieldValues": "WARNING,TRACE,ERROR"
+        },
+        {
+            "fieldName": "descricao",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "origem",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dataLog",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "numeroOcorrencias",
+            "fieldType": "Integer"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "logDetalhado",
+            "otherEntityRelationshipName": "log",
+            "relationshipName": "logDetalhado",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191016121740",
+    "entityTableName": "log",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "bugTracker",
+    "applications": "*",
+    "microserviceName": "bugTracker"
+}
