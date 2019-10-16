@@ -1,0 +1,32 @@
+{
+    "name": "LogDetalhado",
+    "fields": [
+        {
+            "fieldName": "titulo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "detalhes",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "log",
+            "otherEntityRelationshipName": "logDetalhado",
+            "relationshipName": "log"
+        }
+    ],
+    "changelogDate": "20191016121741",
+    "entityTableName": "log_detalhado",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "bugTracker",
+    "applications": "*",
+    "microserviceName": "bugTracker"
+}
